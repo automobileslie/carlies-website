@@ -2,6 +2,7 @@ import './App.css';
 import NavigationBar from './NavigationBar.js';
 import { Routes, Route } from 'react-router-dom';
 import About from './About.js'
+import Resume from './Resume.js'
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <div className="inner-app-wrapper">
           <Routes>
             <Route path="/" element={<About/>}/>
+            <Route path="/resume" element={<Resume/>}/>
           </Routes>
         </div>
      </div>

@@ -18,12 +18,12 @@ export default function NavigationBar(props) {
         //   onClick={props.}
         >
           <NavLink to="/projects">Projects</NavLink>
-        </div>
+        </div> */}
         <div className="nav-bar-items"
         //   onClick={props.}
         >
-          <NavLink to="/cv">CV</NavLink>
-        </div> */}
+          <NavLink to="/resume">Resume</NavLink>
+        </div>
       </div>
     </nav>
   )
