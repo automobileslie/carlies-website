@@ -58,6 +58,7 @@ export default function Resume() {
                         </ul>
                         <h4 className="resume-section-header">EDUCATION</h4>
                         <p className="resume-paragraph resume-section-bold">Google/Coursera, Crash Course on Python Certificate | 09/2020 - 10/2020</p>
+                        <br />
                         <p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, NY | 10/2019 - 02/2020</p>
                         <ul className="ul-resume">
                             <li className="li-resume">Full Stack Web Development | JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
@@ -77,12 +78,13 @@ export default function Resume() {
 
                         <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4>
 
-                        <p className="resume-paragraph"><strong>Library of Congress Collections Application </strong> | 
+                        <p className="resume-paragraph"><strong>Library of Congress Collections Application </strong> 
                             <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
                             |
                             <a className="link link-on-resume resume-link" href="https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8" target = "_blank" rel="noopener noreferrer"> Demo </a>
-                            | Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics
                         </p>
+                        <p className="resume-paragraph"><i>Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics</i></p>
+
                         <ul className="ul-resume">
                             <li className="li-resume">Employed hooks in functional components in a React JavaScript framework</li>
                             <li className="li-resume">Fetched data from the Library of Congress Collections API to display in a paginated index</li>
@@ -90,14 +92,14 @@ export default function Resume() {
                             <li className="li-resume">Implemented a responsive design using Flexbox and media query breakpoints</li>
                         </ul>
 
-                        <p className="resume-paragraph"><strong>National Parks Trip Planner </strong> | 
+                        <p className="resume-paragraph"><strong>National Parks Trip Planner </strong> 
                             <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/national_parks_app" target = "_blank" rel="noopener noreferrer"> National Parks App </a>
                             |
                             <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/national_parks_api" target = "_blank" rel="noopener noreferrer">  National Parks App API </a>
                             |
                             <a className="link link-on-resume resume-link" href="https://youtu.be/B2vT8In2s5g" target = "_blank" rel="noopener noreferrer"> Demo </a>
-                            | An app for exploring national parks and organizing trips to different natural and historical sites
                         </p>
+                        <p className="resume-paragraph"><i>An app for exploring national parks and organizing trips to different natural and historical sites</i></p>
                         <ul className="ul-resume">
                             <li className="li-resume">Created a Ruby on Rails backend to fetch from the National Park Service JSON API</li>
                             <li className="li-resume">Engineered front-end functionality including a search bar, filters, and routes using React and React Router</li>

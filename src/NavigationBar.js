@@ -14,11 +14,11 @@ export default function NavigationBar(props) {
         >
           <NavLink to="/publications">Publications</NavLink>
         </div> */}
-        {/* <div className="nav-bar-items"
+        <div className="nav-bar-items"
         //   onClick={props.}
         >
-          <NavLink to="/projects">Projects</NavLink>
-        </div> */}
+          <NavLink to="/projects">Projects and Publications</NavLink>
+        </div>
         <div className="nav-bar-items"
         //   onClick={props.}
         >
