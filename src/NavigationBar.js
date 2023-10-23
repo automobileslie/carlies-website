@@ -9,15 +9,15 @@ export default function NavigationBar(props) {
         >
           <NavLink to="/">About</NavLink>
         </div>
-        {/* <div className="nav-bar-items"
-        //   onClick={props.}
-        >
-          <NavLink to="/publications">Publications</NavLink>
-        </div> */}
         <div className="nav-bar-items"
         //   onClick={props.}
         >
-          <NavLink to="/projects">Projects and Publications</NavLink>
+          <NavLink to="/publications">Publications</NavLink>
+        </div>
+        <div className="nav-bar-items"
+        //   onClick={props.}
+        >
+          <NavLink to="/projects">Projects</NavLink>
         </div>
         <div className="nav-bar-items"
         //   onClick={props.}

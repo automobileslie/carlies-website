@@ -185,6 +185,43 @@ color: rosybrown;
 
 /* style for projects */
 
+.container-for-projects-and-publications {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px){
+  .container-for-projects-and-publications {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.projects-and-publications-heading {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.image-for-project {
+  width: 325px;
+  height: 415px;
+}
+
+@media screen and (max-width: 900px){
+  .image-for-project {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .messages-for-loading{
   text-align: center;
   margin: 4%;
@@ -213,6 +250,9 @@ color: rosybrown;
 }
 
 .project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
@@ -457,11 +497,14 @@ text-align: center
 }
 
 .link-to-website{
-  margin-left: 2%;
-  margin-right: 2%;
   color: black;
+  margin-right: 2%;
   text-decoration: none;
   font-weight: bold;
+}
+
+.link-to-website ~ .link-to-website  {
+  margin-left: 2%;
 }
 
 .link-to-website:visited{
@@ -473,9 +516,6 @@ color: rosybrown;
 }
 
 .links-to-websites{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: 2%;
   display: flex;
   justify-content: left;
 }
@@ -485,7 +525,11 @@ color: rosybrown;
       margin-bottom: 15%;
       justify-content: start;
       margin-left: 15%;
-      margin-right: 0;
+      margin-right: 15%;
+  }
+
+  .link-to-website ~ .link-to-website  {
+    margin-left: 2%;
   }
 }
 
@@ -499,9 +543,6 @@ color: rosybrown;
 
 .second-container-for-about-page{
   text-align: left;
-  width: 40%;
-  height: 35%;
-  margin-right: 5%;
   margin-left: 5%;
   margin-top: 5px;
   font-size: small;
@@ -511,11 +552,8 @@ color: rosybrown;
 
 @media screen and (max-width: 800px){
   .second-container-for-about-page{
-      margin-right: 0;
       margin-left: 0;
-      text-align: center;
-      width: 100%;
-      height: 100%;     
+      text-align: center;  
 }
 }
 

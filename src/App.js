@@ -4,19 +4,20 @@ import { Routes, Route } from 'react-router-dom';
 import About from './About.js'
 import Resume from './Resume.js'
 import Projects from './Projects.js'
+import Publications from './Publications.js'
 import { useState } from 'react';
 
 const setOfProjects = [
 {id: "2-project", title:  "National Park Trip Planner", 
 description: "National Parks Trip Planner provides information about national parks in the United States, fetching from the National Park Service API and also linking to the National Park Service website. Users can save parks that they would like to go to or to learn more about and take notes on saved parks as they plan a trip. The idea for this application came from my eagerness to get outdoors. I like that National Parks are low-cost and offer educational opportunities about both history and nature.", 
 video: "", 
-image: "./Images/United_States.jpg", 
+image: "./Images/Yosemite_Falls.jpg", 
 frontend: "https://github.com/automobileslie/national_parks_app", 
 backend: "https://github.com/automobileslie/national_parks_api"},
 {id: "3-project", title:  "Library of Congress Collections Application", 
  description: "Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics", 
  video: "https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8", 
- image: "./Images/three-cheers-for-books.png", 
+ image: "./Images/three-cheers.jpeg", 
  frontend: "https://github.com/automobileslie/Library_of_Congress_App"}
 ]
 
@@ -50,6 +51,8 @@ export default function App() {
             <Route path="/" element={<About/>}/>
             <Route path="/resume" element={<Resume/>}/>
             <Route path="/projects" element={<Projects projects={projects} publications={publications}/>}/>
+            <Route path="/publications" element={<Projects publications={publications}/>}/>
+
           </Routes>
         </div>
      </div>
