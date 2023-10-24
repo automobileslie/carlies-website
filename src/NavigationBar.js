@@ -1,28 +1,36 @@
 import { NavLink } from 'react-router-dom';
 
-export default function NavigationBar(props) {
+export default function NavigationBar({resetShowPages}) {
   return (
     <nav>
       <div className="nav-bar-wrapper">
         <div className="nav-bar-items"
-        //   onClick={props.}
         >
-          <NavLink to="/">About</NavLink>
+          <NavLink          
+            onClick={resetShowPages}
+            to="/">About
+          </NavLink>
         </div>
         <div className="nav-bar-items"
-        //   onClick={props.}
-        >
-          <NavLink to="/publications">Publications</NavLink>
+         >
+          <NavLink 
+            onClick={resetShowPages}
+            to="/publications">Publications
+          </NavLink>
         </div>
         <div className="nav-bar-items"
-        //   onClick={props.}
-        >
-          <NavLink to="/projects">Projects</NavLink>
+         >
+          <NavLink 
+            onClick={resetShowPages}
+            to="/projects">Projects
+          </NavLink>
         </div>
         <div className="nav-bar-items"
-        //   onClick={props.}
-        >
-          <NavLink to="/resume">Resume</NavLink>
+         >
+          <NavLink 
+            onClick={resetShowPages}
+            to="/resume">Resume
+          </NavLink>
         </div>
       </div>
     </nav>

@@ -30,28 +30,49 @@ const setOfPublications = [{id: "1-publication",
     title: "Carnal Hermeneutics", 
     image: "./Images/Carnal_Hermeneutics.jpg", 
     url: 'https://www.fordhampress.com/9780823265893/carnal-hermeneutics/', 
-    description: 'For this volume, I contributed a translation of an essay by Jean-Luc Nancy entitled "Rethinking Corpus: Essential Skin." Skin is described as a site of vulnerability where we are exposed both to danger and to the joy of contact with others. The essay includes reflections on love and maternity, with the marks that our bodies bear testifying to our interconnectedness. Nancy also considers the relationship between several idiomatic phrases containing the word "skin," exploring its multiple meanings in different contexts to trace various degrees and types of touch.'}
+    description: 'To this volume, I contributed a translation of Jean-Luc Nancy\'s essay "Rethinking Corpus: Essential Skin." It includes reflections on love and maternity, emphasizing that the marks our bodies bear testify to our interconnectedness. Nancy also considers the relationship between several idiomatic phrases containing the word "skin," exploring its multiple meanings in different contexts to trace various degrees and types of touch.'}
 ]
 
 export default function App() {
 
-  const [projects, setProjects] = useState(setOfProjects);
+  const [projects] = useState(setOfProjects);
   const [projectExpanded, setProjectExpanded] = useState([]);
-  const [publications, setPublications] = useState(setOfPublications);
+  const [publications] = useState(setOfPublications);
   const [publicationExpanded, setPublicationExpanded] = useState([]);
+
+  const expandProject=(project)=>{
+    if (project) {
+      setProjectExpanded([project])
+    }
+    else {
+      setProjectExpanded([])
+    }
+  }
+
+  const expandPublication=(publication)=>{
+    if(publication) {
+      setPublicationExpanded([publication])
+    }
+    else {
+      setPublicationExpanded([])
+    }
+  }
+
+  const resetShowPages=()=>{
+    expandPublication()
+    expandProject()
+  }
   
-
-
   return (
     <div>
-      <NavigationBar />
+      <NavigationBar resetShowPages={resetShowPages}/>
       <div className="app-container">
         <div className="inner-app-wrapper">
           <Routes>
-            <Route path="/" element={<About/>}/>
-            <Route path="/resume" element={<Resume/>}/>
-            <Route path="/projects" element={<Projects projects={projects}/>}/>
-            <Route path="/publications" element={<Publications publications={publications}/>}/>
+            <Route path="/" element={<About />}/>
+            <Route path="/resume" element={<Resume />}/>
+            <Route path="/projects" element={<Projects projects={projects} projectExpanded={projectExpanded} expandProject={expandProject}/>}/>
+            <Route path="/publications" element={<Publications publications={publications} publicationExpanded={publicationExpanded} expandPublication={expandPublication}/>}/>
 
           </Routes>
         </div>
