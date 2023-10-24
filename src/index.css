@@ -289,27 +289,38 @@ text-align: center
 }
 
 .project-description{
-  text-align: left;
-  margin-right: 25%;
-  margin-left: 25%;
-  font-size: 125%
+ font-size: medium;
+}
+
+.container-for-project-display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+.project-display-image-and-links {
+  display: flex;
 }
 
 @media screen and (max-width: 800px){
-  .project-description{
-      margin-right: 5%;
-      margin-left: 5%;
-      margin-top: 0%;    }
+  .project-display-image-and-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
   .container-for-project-display{
       display: flex;
+      flex-direction: column;
       justify-content: center;
       margin-top: 5%;
       margin-bottom: 5%
   }
-}
+} */
 
 @media screen and (max-width: 800px){
   .project-demo{
@@ -367,8 +378,6 @@ text-align: center
 
 @media screen and (max-width: 800px){
   .publication-book-tile{
-     /* width: 100%;
-     height: 100%; */
      margin-bottom: 2%;
      margin-top: 2%
   }
@@ -377,6 +386,16 @@ text-align: center
 .project-image{
   width: 80%;
   height: 80%;
+}
+
+.project-display-image {
+  width: 40%;
+}
+
+@media screen and (max-width: 800px){
+  .project-display-image{
+    width: 100%;
+  }
 }
 
 .book-image{
@@ -524,6 +543,20 @@ color: rosybrown;
   justify-content: left;
 }
 
+.project-links-to-websites{
+  display: flex;
+  justify-content: left;
+}
+
+@media screen and (max-width: 800px){
+  .project-links-to-websites{
+    display: flex;
+    justify-content: left;
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+}
+
 @media screen and (max-width: 800px){
   .links-to-websites{
       margin-bottom: 15%;
@@ -564,8 +597,6 @@ color: rosybrown;
 @media screen and (max-width: 800px){
   .profile-description{
       text-align: left;
-      margin-left: 15%;
-      margin-right: 15%
   }
 }
 
@@ -876,6 +907,10 @@ color: rosybrown;
   font-weight: normal;
   margin-left: .5%;
   margin-right: .5%;
+}
+
+.project-link {
+  margin-right: 5%;
 }
 
 .link-on-resume {
