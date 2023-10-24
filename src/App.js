@@ -50,8 +50,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<About/>}/>
             <Route path="/resume" element={<Resume/>}/>
-            <Route path="/projects" element={<Projects projects={projects} publications={publications}/>}/>
-            <Route path="/publications" element={<Projects publications={publications}/>}/>
+            <Route path="/projects" element={<Projects projects={projects}/>}/>
+            <Route path="/publications" element={<Publications publications={publications}/>}/>
 
           </Routes>
         </div>

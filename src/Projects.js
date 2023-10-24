@@ -1,4 +1,4 @@
-export default function Projects({projects, publications}) {
+export default function Projects({projects}) {
 
    const displayProjectTiles=()=>{
         return projects.map(project=>{
@@ -7,7 +7,7 @@ export default function Projects({projects, publications}) {
                         <img className="image-for-project" 
                         src={require(`${project.image}`)} 
                         alt={project.title} />
-                        <p className="">{project.title}</p>
+                        <p className="titles-for-project-index">{project.title}</p>
                     </div>
                     </>
         })
