@@ -1,3 +1,5 @@
+import ProfilePhoto from './Images/profilePhoto.jpeg';
+
 export default function About() {
     return(
         <div className="about-page">
@@ -5,7 +7,7 @@ export default function About() {
             <div className="container-for-about-page">
                 <img
                     className="profile-photo"
-                    src={require("./Images/profilePhoto.jpeg")}
+                    src={ProfilePhoto}
                     width={500}
                     height={500}
                     alt="Carlie Anglemire"
