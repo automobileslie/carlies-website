@@ -6,11 +6,11 @@ export default function Resume() {
                     <div className="resume-header-container">
                         <h1 className="heading resume-header">Carlie Anglemire</h1>
                         <div className="links-to-websites resume-links">
-                            <p className="link-to-website resume-link"><a className="link link-on-resume" href="https://github.com/automobileslie" target = "_blank" rel="noopener noreferrer">Github</a></p> 
+                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://github.com/automobileslie" target = "_blank" rel="noopener noreferrer">Github</a></p> 
                             <p>|</p>
-                            <p className="link-to-website resume-link"><a className="link link-on-resume" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>  
+                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>  
                             <p>|</p>
-                            <p className="link-to-website resume-link"><a className="link link-on-resume" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
+                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
                         </div>
                         <p className="resume-paragraph">Full stack software engineer who uses problem-solving skills and creativity in building applications to​ help people gain access to online resources. 
                             Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed 
@@ -77,11 +77,10 @@ export default function Resume() {
                         </ul> 
 
                         <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4>
-
                         <p className="resume-paragraph"><strong>Library of Congress Collections Application </strong> 
-                            <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
                             |
-                            <a className="link link-on-resume resume-link" href="https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8" target = "_blank" rel="noopener noreferrer"> Demo </a>
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8" target = "_blank" rel="noopener noreferrer"> Demo </a>
                         </p>
                         <p className="resume-paragraph"><i>Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics</i></p>
 
@@ -93,11 +92,11 @@ export default function Resume() {
                         </ul>
 
                         <p className="resume-paragraph"><strong>National Parks Trip Planner </strong> 
-                            <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/national_parks_app" target = "_blank" rel="noopener noreferrer"> National Parks App </a>
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/national_parks_app" target = "_blank" rel="noopener noreferrer"> National Parks App </a>
                             |
-                            <a className="link link-on-resume resume-link" href="https://github.com/automobileslie/national_parks_api" target = "_blank" rel="noopener noreferrer">  National Parks App API </a>
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/national_parks_api" target = "_blank" rel="noopener noreferrer">  National Parks App API </a>
                             |
-                            <a className="link link-on-resume resume-link" href="https://youtu.be/B2vT8In2s5g" target = "_blank" rel="noopener noreferrer"> Demo </a>
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://youtu.be/B2vT8In2s5g" target = "_blank" rel="noopener noreferrer"> Demo </a>
                         </p>
                         <p className="resume-paragraph"><i>An app for exploring national parks and organizing trips to different natural and historical sites</i></p>
                         <ul className="ul-resume">

@@ -15,7 +15,7 @@ export default function NavigationBar({resetShowPages}) {
          >
           <NavLink 
             onClick={resetShowPages}
-            to="/publications">Publications
+            to="/resume">Resume
           </NavLink>
         </div>
         <div className="nav-bar-items"
@@ -29,7 +29,7 @@ export default function NavigationBar({resetShowPages}) {
          >
           <NavLink 
             onClick={resetShowPages}
-            to="/resume">Resume
+            to="/publications">Publications
           </NavLink>
         </div>
       </div>

@@ -5,11 +5,11 @@ export default function Publications({publications, expandPublication, publicati
     const displayProjectTiles=()=>{
          return publications.map(publication=>{
              return <>
-                     <div key={publication.id} className="publication-book-tile" onClick={() => expandPublication(publication)}>
+                     <div key={publication.id} className="publication-and-project-tile" onClick={() => expandPublication(publication)}>
                          <img className="book-image" 
                          src={require(`${publication.image}`)} 
                          alt={publication.title} />
-                         <p className="titles-for-project-index">{publication.title}</p>
+                         <p className="titles-for-project-and-publication-index">{publication.title}</p>
                      </div>
                      </>
          })
@@ -17,9 +17,9 @@ export default function Publications({publications, expandPublication, publicati
 
      const renderIndexOrShowPage = () => {
         if (!publicationExpanded.length) {
-            return <div className="container-for-publication-index">
+            return <div className="container-for-publication-and-project-index">
                 <h2 className="projects-and-publications-heading">Publications</h2>
-                <div className="publications-book-container">
+                <div className="publications-and-projects-container">
                     {displayProjectTiles()}            
                 </div>
              </div>
