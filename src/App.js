@@ -17,7 +17,7 @@ const setOfProjects = [
   {id: "3-project", title:  "Library of Congress Collections Application", 
   description: "A single-page application that works with data from the Library of Congress's Collections API and displays a set of information in a readable and browsable format with the aim of generating interest in the library's resources.", 
   video: "https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8", 
-  image: "./Images/three-cheers.jpeg", 
+  image: "./Images/three-cheers.jpg", 
   frontend: "https://github.com/automobileslie/Library_of_Congress_App"
   }
 ]

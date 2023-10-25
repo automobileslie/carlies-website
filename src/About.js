@@ -1,4 +1,4 @@
-import ProfilePhoto from './Images/profilePhoto.jpeg';
+import ProfilePhoto from './Images/profilePhoto.jpg';
 
 export default function About() {
     return(
