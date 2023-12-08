@@ -8,8 +8,6 @@ export default function About() {
                 <img
                     className="profile-photo"
                     src={ProfilePhoto}
-                    // width={500}
-                    // height={500}
                     alt="Carlie Anglemire"
                 />
 
