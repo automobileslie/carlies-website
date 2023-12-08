@@ -61,15 +61,15 @@ export default function Resume() {
                         <br />
                         <p className="resume-paragraph resume-section-bold">Google/Coursera, Crash Course on Python Certificate | 09/2020 - 10/2020</p>
                         <br />
-                        <p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, NY | 10/2019 - 02/2020</p>
+                        <p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, New York | 10/2019 - 02/2020</p>
                         <ul className="ul-resume">
                             <li className="li-resume">Full Stack Web Development | JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, NY | 08/2011 - 12/2017</p>
+                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York | 08/2011 - 12/2017</p>
                         <ul className="ul-resume">
                             <li className="li-resume">Ph.D. Philosophy | Focus on Ethics and Aesthetics | Dissertation: Panorama and Proximity in Levinas and the Stoics</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, NY | 08/2009 - 12/2010</p>
+                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York | 08/2009 - 12/2010</p>
                         <ul className="ul-resume">
                             <li className="li-resume">M.A. Philosophy | Focus on Philosophy of Art and Aesthetics</li>
                         </ul> 
@@ -92,17 +92,6 @@ export default function Resume() {
                             <li className="li-resume">Set up fetches to the Art Institute of Chicago’s public API to get work in the public domain, rendering a paginated list of matches</li>
                             <li className="li-resume">Enabled CRUD functionality for users to manage their own personal digital artwork collections</li>
                         </ul>
-
-
-
-
-
-
-
-
-
-
-
 
                         <p className="resume-paragraph"><strong>Library of Congress Collections Application </strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
@@ -134,6 +123,7 @@ export default function Resume() {
 
                         <h4 className="resume-section-header">TRANSLATIONS</h4>
                         <p className="resume-paragraph"><strong><i>Being Nude: The Skin of Images</i></strong>, Fordham University Press, 2014 | Co-translated with Anne O’Byrne</p>
+                        <br></br>
                         <p className="resume-paragraph"><strong><i>Carnal Hermeneutics</i></strong>, Fordham University Press, 2015 | Translator of “Essential Skin” in Jean-Luc Nancy’s Rethinking Corpus</p> 
                     </div>
                 </div>
