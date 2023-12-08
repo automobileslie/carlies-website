@@ -99,7 +99,7 @@ color: rosybrown;
 }
 
 .heading{
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
 }
 
@@ -330,8 +330,8 @@ text-align: center
 }
 
 .profile-photo{
-  width: 30%;
-  height: 40%;
+  width: 40%;
+  height: 80%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 1%;
@@ -371,9 +371,17 @@ text-align: center
 }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 901px){
   .profile-description{
       text-align: left;
+      font-size: large;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .profile-description{
+      text-align: left;
+      font-size: medium;
   }
 }
 
@@ -382,12 +390,6 @@ text-align: center
       text-align: left;
       margin-left: 0;
       margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 885px){
-  .profile-description{
-      padding-top: 1%;
   }
 }
 

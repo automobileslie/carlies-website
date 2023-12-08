@@ -20,7 +20,7 @@ export default function Resume() {
                     </div>
                     <div>
                         <h4 className="resume-section-header">TECHNICAL SKILLS</h4>
-                        <p className="resume-paragraph">JavaScript/Typescript (including Vue, Angular, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL</p>
+                        <p className="resume-paragraph">JavaScript/Typescript (including Vue, Angular, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL, Flask</p>
                         <h4 className="resume-section-header">WORK EXPERIENCE</h4>
                         <p className="resume-paragraph resume-section-bold">Software Engineer, Dorsata, Remote | 09/2021 - 09/2023</p>
                         <ul className="ul-resume">
@@ -57,6 +57,8 @@ export default function Resume() {
                             <li className="li-resume">Led English-language courses for elementary-school students as a part of a program run by the French Department of Education</li>
                         </ul>
                         <h4 className="resume-section-header">EDUCATION</h4>
+                        <p className="resume-paragraph resume-section-bold">HarvardX, CS50x Introduction to Computer Science Certificate | 12/2023</p>
+                        <br />
                         <p className="resume-paragraph resume-section-bold">Google/Coursera, Crash Course on Python Certificate | 09/2020 - 10/2020</p>
                         <br />
                         <p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, NY | 10/2019 - 02/2020</p>
@@ -77,6 +79,31 @@ export default function Resume() {
                         </ul> 
 
                         <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4>
+
+                        <p className="resume-paragraph"><strong>Chicago Artwork Collection Application</strong> 
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/aic_collections_app" target = "_blank" rel="noopener noreferrer"> AIC Collection App </a>
+                            |
+                            <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://youtu.be/htQ8wr_J2WU" target = "_blank" rel="noopener noreferrer"> Demo </a>
+                        </p>
+                        <p className="resume-paragraph"><i>A program for perusing artwork at the Art Institute of Chicago and creating your own personal collections</i></p>
+
+                        <ul className="ul-resume">
+                            <li className="li-resume">Built the application using Python, SQL, and Flask</li>
+                            <li className="li-resume">Set up fetches to the Art Institute of Chicago’s public API to get work in the public domain, rendering a paginated list of matches</li>
+                            <li className="li-resume">Enabled CRUD functionality for users to manage their own personal digital artwork collections</li>
+                        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
                         <p className="resume-paragraph"><strong>Library of Congress Collections Application </strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
                             |
