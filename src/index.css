@@ -251,6 +251,7 @@ text-align: center
 .book-image{
   width: 100%;
   height: 80%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px){
