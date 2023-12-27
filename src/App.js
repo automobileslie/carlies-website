@@ -11,13 +11,17 @@ const setOfProjects = [
   {id: "2-project", title:  "National Park Trip Planner", 
   description: "National Parks Trip Planner provides information about national parks in the United States, fetching from the National Park Service API and also linking to the National Park Service website. Users can save parks that they would like to go to or to learn more about and take notes on saved parks as they plan a trip. The idea for this application came from my eagerness to get outdoors. I like that National Parks are low-cost and offer educational opportunities about both history and nature.", 
   video: "https://youtu.be/B2vT8In2s5g", 
-  image: "./Images/Yosemite_Falls.jpg", 
+  image: "./Images/national_parks_preserve_wild_life_poster.jpeg", 
+  imageCitation: 'The National Parks Preserve Wild Life. , None. [Nyc: works progress administration federal art project, between 1936 and 1939] Photograph. https://www.loc.gov/item/98518597/',
+  linkToImage: 'https://www.loc.gov/item/98518597/',
   frontend: "https://github.com/automobileslie/national_parks_app", 
   backend: "https://github.com/automobileslie/national_parks_api"},
   {id: "3-project", title:  "Library of Congress Collections Application", 
   description: "A single-page application that works with data from the Library of Congress's Collections API and displays a set of information in a readable and browsable format with the aim of generating interest in the library's resources.", 
   video: "https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8", 
   image: "./Images/three-cheers.jpg", 
+  imageCitation: "Adams, Adrienne. Three cheers for books. Book week, November 10-16. , 1963. [New York: The Children's Book Council, In] Photograph. https://www.loc.gov/item/2014646809/",
+  linkToImage: 'https://www.loc.gov/item/2014646809/',
   frontend: "https://github.com/automobileslie/Library_of_Congress_App"
   }
 ]

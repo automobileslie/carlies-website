@@ -29,10 +29,10 @@ export default function ProjectDisplay({projectExpanded}) {
                 <h2>{projectExpanded[0].title}</h2>
                 <br></br>
                 <div className="project-display-image-and-links">
-                    <img className="project-display-image" 
-                            src={require(`${projectExpanded[0].image}`)} 
-                            alt={projectExpanded[0].title} 
+                    <a href={projectExpanded[0].linkToImage} target="_blank" rel="noreferrer">
+                    <img className="project-display-image" src={require(`${projectExpanded[0].image}`)} alt={projectExpanded[0].title} 
                     />
+                    </a>
                     <div className="second-container-for-about-and-project-page">
                         <p className="project-description">{projectExpanded[0].description}</p>
                         <br></br>

@@ -57,7 +57,9 @@ export default function Resume() {
                             <li className="li-resume">Led English-language courses for elementary-school students as a part of a program run by the French Department of Education</li>
                         </ul>
                         <h4 className="resume-section-header">EDUCATION</h4>
-                        <p className="resume-paragraph resume-section-bold">HarvardX, CS50x Introduction to Computer Science Certificate | 12/2023</p>
+                        <p className="resume-paragraph resume-section-bold">JP Morgan Chase & Co., Software Engineering Lite Job Simulation, Certificate of Completion | 12/2023</p>
+                        <br />
+                        <p className="resume-paragraph resume-section-bold">HarvardX, CS50x Introduction to Computer Science Verified Certificate | 12/2023</p>
                         <br />
                         <p className="resume-paragraph resume-section-bold">Google/Coursera, Crash Course on Python Certificate | 09/2020 - 10/2020</p>
                         <br />
