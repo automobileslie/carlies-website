@@ -12,15 +12,12 @@ export default function Resume() {
                             <p>|</p>
                             <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
                         </div>
-                        <p className="resume-paragraph">Full stack software engineer who uses problem-solving skills and creativity in building applications to​ help people gain access to online resources. 
-                            Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed 
-                            as a Philosophy PhD and student/translator of natural languages. With a commitment to communication and collaboration and experience delving into new technical 
-                            languages/frameworks, my mission as an engineer is to provide vital services to users to improve quality of life.
+                        <p className="resume-paragraph">Full stack software engineer who uses problem-solving skills and creativity in building applications to​ help people gain access to online resources. Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed as a Philosophy PhD and student/translator of natural languages. With a commitment to communication and collaboration and experience delving into new technical languages and frameworks, my aim as an engineer is to contribute to providing vital services to users to support their quality of life.
                         </p>
                     </div>
                     <div>
                         <h4 className="resume-section-header">TECHNICAL SKILLS</h4>
-                        <p className="resume-paragraph">JavaScript/Typescript (including Vue, Angular, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL, Flask</p>
+                        <p className="resume-paragraph">JavaScript/Typescript (including Vue.js, AngularJS, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL, Flask,  Intrusion Detection, Cybersecurity Incident Response, Vulnerability Management, Communication, Problem-Solving, Critical Thinking</p>
                         <h4 className="resume-section-header">WORK EXPERIENCE</h4>
                         <p className="resume-paragraph resume-section-bold">Software Engineer, Dorsata, Remote | 09/2021 - 09/2023</p>
                         <ul className="ul-resume">
@@ -57,7 +54,7 @@ export default function Resume() {
                             <li className="li-resume">Led English-language courses for elementary-school students as a part of a program run by the French Department of Education</li>
                         </ul>
                         <h4 className="resume-section-header">EDUCATION</h4>
-                        <p className="resume-paragraph resume-section-bold">JP Morgan Chase & Co., Software Engineering Lite Job Simulation, Certificate of Completion | 12/2023</p>
+                        <p className="resume-paragraph resume-section-bold">Google Cybersecurity Professional Certificate | 01/2024</p>
                         <br />
                         <p className="resume-paragraph resume-section-bold">HarvardX, CS50x Introduction to Computer Science Verified Certificate | 12/2023</p>
                         <br />
