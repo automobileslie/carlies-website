@@ -8,14 +8,22 @@ import Publications from './Publications.js'
 import { useState } from 'react';
 
 const setOfProjects = [
-  {id: "2-project", title:  "National Park Trip Planner", 
+  {id: "1-project", title:  "National Park Trip Planner", 
   description: "National Parks Trip Planner provides information about national parks in the United States, fetching from the National Park Service API and also linking to the National Park Service website. Users can save parks that they would like to go to or to learn more about and take notes on saved parks as they plan a trip. The idea for this application came from my eagerness to get outdoors. I like that National Parks are low-cost and offer educational opportunities about both history and nature.", 
   video: "https://youtu.be/B2vT8In2s5g", 
-  image: "./Images/national_parks_preserve_wild_life_poster.jpg", 
-  imageCitation: 'The National Parks Preserve Wild Life. , None. [Nyc: works progress administration federal art project, between 1936 and 1939] Photograph. https://www.loc.gov/item/98518597/',
-  linkToImage: 'https://www.loc.gov/item/98518597/',
+  image: "./Images/Sunset Cities, in the Grand Canyon.jpg", 
+  imageCitation: 'Joseph Pennell. Sunset Cities, in the Grand Canyon, 1912. https://www.artic.edu/artworks/47908/sunset-cities-in-the-grand-canyon',
+  linkToImage: 'https://www.artic.edu/artworks/47908/sunset-cities-in-the-grand-canyon',
   frontend: "https://github.com/automobileslie/national_parks_app", 
   backend: "https://github.com/automobileslie/national_parks_api"},
+  {id: "2-project", title:  "Chicago Artwork Collections Application", 
+  description: "This is an application that allows you to search through the collections at the Art Institute of Chicago. It fetches data available via their public API for works that are in the public domain. You can save images and information about particular works of art according to categories that you create yourself. I envisage this being useful for presentations, research, teaching, or just for your own enjoyment. All information and images are sourced from the Art Institute of Chicago. If you would like to download any of the images, there is a link to the Art Institute's website on the artwork's show page where you can do so. I hope you enjoy perusing the art!", 
+  video: "https://youtu.be/htQ8wr_J2WU", 
+  image: "./Images/Acrobats at the Cirque Fernando.jpg", 
+  imageCitation: "Pierre-Auguste Renoir. Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg), 1879. https://www.artic.edu/artworks/81558/acrobats-at-the-cirque-fernando-francisca-and-angelina-wartenberg",
+  linkToImage: 'https://www.artic.edu/artworks/81558/acrobats-at-the-cirque-fernando-francisca-and-angelina-wartenberg',
+  frontend: "https://github.com/automobileslie/aic_collections_app"
+  },
   {id: "3-project", title:  "Library of Congress Collections Application", 
   description: "A single-page application that works with data from the Library of Congress's Collections API and displays a set of information in a readable and browsable format with the aim of generating interest in the library's resources.", 
   video: "https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8", 

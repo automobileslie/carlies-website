@@ -125,9 +125,28 @@ color: rosybrown;
   color: rosybrown;
 }
 
-.project-image{
-  max-width: 75%;
+.image-container {
+  border: solid black;
+  padding: 10px;
+}
+
+.project-image{ 
+  max-width: 200px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px){
+  .project-image{
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .image-container {
+    border: none;
+    padding: none;
+  }
 }
 
 .project-show-pages{
@@ -138,7 +157,7 @@ text-align: center
   max-width: 400px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .project-display-image{
     width: 100%;
     max-width: none;
@@ -150,7 +169,7 @@ text-align: center
  text-align: left;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .project-description{
       text-align: left;
   }
@@ -186,7 +205,7 @@ text-align: center
   display: flex;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .project-display-image-and-links{
       display: flex;
       flex-direction: column;
@@ -212,7 +231,7 @@ text-align: center
   text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .container-for-publication-and-project-index{
       text-align: center;
       display:flex;
@@ -233,18 +252,27 @@ text-align: center
   margin-bottom: 5%
 } 
 
-@media screen and (max-width: 800px){
+.publication-and-project-tile{
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px){
   .publications-and-projects-container{
       display: flex;
       justify-content: center;
       flex-direction: column;
+      margin-top: 0%;
+
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .publication-and-project-tile{
      margin-bottom: 2%;
-     margin-top: 2%
+     margin-top: 2%;
+     padding: none;
   }
 }
 

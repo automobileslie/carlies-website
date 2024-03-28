@@ -6,11 +6,14 @@ export default function Publications({projects, expandProject, projectExpanded})
          return projects.map(project=>{
              return <>
                      <div key={project.id} className="publication-and-project-tile" onClick={() => expandProject(project)}>
-                         <img className="project-image" 
-                         src={require(`${project.image}`)} 
-                         alt={project.title} />
-                         <p className="titles-for-project-and-publication-index">{project.title}</p>
-                     </div>
+                        <div className="image-container">
+                            <img className="project-image" 
+                            src={require(`${project.image}`)} 
+                            alt={project.title} />
+                        </div>
+
+                        <p className="titles-for-project-and-publication-index">{project.title}</p>
+                    </div>
                      </>
          })
      }
