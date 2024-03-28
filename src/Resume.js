@@ -12,7 +12,9 @@ export default function Resume() {
                             <p>|</p>
                             <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
                         </div>
-                        <p className="resume-paragraph">Full stack software engineer who uses problem-solving skills and creativity in building applications to​ help people gain access to online resources. Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed as a Philosophy PhD and student/translator of natural languages. With a commitment to communication and collaboration and experience delving into new technical languages and frameworks, my aim as an engineer is to contribute to providing vital services to users to support their quality of life.
+                        <p className="resume-paragraph">Self-motivated and team-oriented full stack software engineer who loves using problem-solving skills and creativity in building applications to​ help people gain access to online resources. 
+                        Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed as a Philosophy PhD and student and translator of natural languages. 
+                        With a commitment to communication and collaboration and experience delving into new technical languages and frameworks, I am looking for my next role in the tech field to contribute to providing services to users that support their quality of life.
                         </p>
                     </div>
                     <div>
@@ -38,6 +40,10 @@ export default function Resume() {
                             <li className="li-resume">Built a PHP plug-in to update the WordPress website of a major national trade group</li>
                             <li className="li-resume">Handled searches of the company’s directory and implemented a responsive design using Flexbox</li>
                         </ul>
+                        <p className="resume-paragraph resume-section-bold"> Operations Manager, Sunnyside, NY | 2014 - 2021</p>
+                        <ul className="ul-resume">
+                            <li className="li-resume">Managed book, record, and media sales for an on-line retail store, handling administrative work and the shipment of items</li>
+                        </ul>
                         <p className="resume-paragraph resume-section-bold">Visiting Instructor, Pratt Institute, Brooklyn, NY | 08/2016 - 12/2018</p>
                         <ul className="ul-resume">
                             <li className="li-resume">Taught courses including Philosophy & Film, Philosophy of Literature, and Problems in Philosophy</li>
@@ -48,6 +54,10 @@ export default function Resume() {
                             <li className="li-resume">Developed curriculum and served as instructor for Intro. to Philosophy, Intro. to Ethics, 
                                 Ethical Issues in Healthcare, Philosophy of Death & Dying, Philosophy in Film, Philosophical Issues in Literature, Philosophy of Self, and Love in Western Civilization
                             </li>
+                        </ul>
+                        <p className="resume-paragraph resume-section-bold">Teaching Assistant & Graduate Council Fellow, Stony Brook University, Stony Brook, NY | 08/2011 - 05/2016</p>
+                        <ul className="ul-resume">
+                            <li className="li-resume">Pursued coursework and graduate program requirements and served as a teaching assistant and instructor of Philosophy classes</li>
                         </ul>
                         <p className="resume-paragraph resume-section-bold">Foreign Language Assistant, Académie de Corse, Ajaccio, Corsica | 10/2008 - 04/2009</p>
                         <ul className="ul-resume">
