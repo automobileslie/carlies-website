@@ -70,7 +70,7 @@ color: rosybrown;
   justify-content: left;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 801px){
   .links-to-websites{
       margin-left: 5%;
   }
@@ -368,6 +368,13 @@ text-align: center
   margin-top: 1%;
 }
 
+@media screen and (max-width: 950px){
+  .profile-photo{
+    width: 45%;
+    height: 80%;
+  }
+}
+
 @media screen and (max-width: 800px){
   .profile-photo{
     text-align: center;
@@ -389,7 +396,6 @@ text-align: center
 .second-container-for-about-page {
   text-align: left;
   margin-left: 7%;
-  font-size: small;
   display: flex;
   flex-direction: column;
 
@@ -405,7 +411,6 @@ text-align: center
   text-align: left;
   margin-left: 7%;
   margin-top: 5px;
-  font-size: small;
   display: flex;
   flex-direction: column;
 }
@@ -416,10 +421,9 @@ text-align: center
 }
 }
 
-@media screen and (min-width: 901px){
+@media screen and (min-width: 801px){
   .profile-description{
       text-align: left;
-      font-size: medium;
   }
 
   .profile-description > *{
@@ -430,7 +434,6 @@ text-align: center
 @media screen and (max-width: 800px){
   .profile-description{
       text-align: left;
-      font-size: small;
       margin-right: 15%;
       margin-left: 5%;
   }
