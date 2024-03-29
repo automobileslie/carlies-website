@@ -17,7 +17,7 @@ const setOfProjects = [
   frontend: "https://github.com/automobileslie/national_parks_app", 
   backend: "https://github.com/automobileslie/national_parks_api"},
   {id: "2-project", title:  "Chicago Artwork Collections Application", 
-  description: "This is an application that allows you to search through the collections at the Art Institute of Chicago. It fetches data available via their public API for works that are in the public domain. You can save images and information about particular works of art according to categories that you create yourself. I envisage this being useful for presentations, research, teaching, or just for your own enjoyment. All information and images are sourced from the Art Institute of Chicago. If you would like to download any of the images, there is a link to the Art Institute's website on the artwork's show page where you can do so. I hope you enjoy perusing the art!", 
+  description: "This is an application that allows you to search through the collections at the Art Institute of Chicago. It fetches data available via their public API for works that are in the public domain. You can save images and information about particular works of art according to categories that you create yourself. I envisage this being useful for presentations, research, teaching, or just for your own enjoyment.", 
   video: "https://youtu.be/htQ8wr_J2WU", 
   image: "./Images/Acrobats at the Cirque Fernando.jpg", 
   imageCitation: "Pierre-Auguste Renoir. Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg), 1879. https://www.artic.edu/artworks/81558/acrobats-at-the-cirque-fernando-francisca-and-angelina-wartenberg",
