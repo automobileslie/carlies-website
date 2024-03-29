@@ -33,7 +33,7 @@ export default function ProjectDisplay({projectExpanded}) {
                     <img className="project-display-image" src={require(`${projectExpanded[0].image}`)} alt={projectExpanded[0].title} 
                     />
                     </a>
-                    <div className="second-container-for-about-and-project-page">
+                    <div className="second-container-for-project-page">
                         <p className="project-description">{projectExpanded[0].description}</p>
                         <br></br>
                         {renderLinksToWebsites()}

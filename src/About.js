@@ -11,7 +11,7 @@ export default function About() {
                     alt="Carlie Anglemire"
                 />
 
-                <div className="second-container-for-about-and-project-page">
+                <div className="second-container-for-about-page">
                     <div className="profile-description">
                         <p>I am a full-stack software developer who most recently worked for a software company centered on women's health and prenatal care​. 
                         With experience in a variety of languages and frameworks, I became interested in software engineering after developing logic and critical thinking skills as a Philosophy PhD focused on topics in ethics and aesthetics.</p> 

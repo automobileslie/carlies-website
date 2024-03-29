@@ -70,11 +70,16 @@ color: rosybrown;
   justify-content: left;
 }
 
+@media screen and (max-width: 900px){
+  .links-to-websites{
+      margin-left: 5%;
+  }
+}
+
 @media screen and (max-width: 800px){
   .links-to-websites{
       margin-bottom: 15%;
       justify-content: start;
-      margin-left: 15%;
       margin-right: 15%;
   }
 
@@ -356,8 +361,8 @@ text-align: center
 }
 
 .profile-photo{
-  width: 40%;
-  height: 80%;
+  width: 30%;
+  height: 60%;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 1%;
@@ -366,7 +371,7 @@ text-align: center
 @media screen and (max-width: 800px){
   .profile-photo{
     text-align: center;
-    width: 75%;
+    width: 60%;
     margin-right: 20%;
     margin-left: 15%;
   }
@@ -375,13 +380,28 @@ text-align: center
 @media screen and (max-width: 375px){
   .profile-photo{
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 10%;
   }
 }
 
-.second-container-for-about-and-project-page{
+.second-container-for-about-page {
+  text-align: left;
+  margin-left: 7%;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media screen and (max-width: 800px){
+  .second-container-for-about-page{
+      text-align: center;  
+}
+}
+
+.second-container-for-project-page {
   text-align: left;
   margin-left: 7%;
   margin-top: 5px;
@@ -391,7 +411,7 @@ text-align: center
 }
 
 @media screen and (max-width: 800px){
-  .second-container-for-about-and-project-page{
+  .second-container-for-project-page{
       text-align: center;  
 }
 }
@@ -399,14 +419,24 @@ text-align: center
 @media screen and (min-width: 901px){
   .profile-description{
       text-align: left;
-      font-size: large;
+      font-size: medium;
+  }
+
+  .profile-description > *{
+    margin-top: 1.5%;
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
   .profile-description{
       text-align: left;
-      font-size: medium;
+      font-size: small;
+      margin-right: 15%;
+      margin-left: 5%;
+  }
+
+  .profile-description:first-child{
+    margin-top: 3%;
   }
 }
 
@@ -415,6 +445,10 @@ text-align: center
       text-align: left;
       margin-left: 0;
       margin-right: 0;
+  }
+
+  .profile-description:first-child{
+    margin-top: 2%;
   }
 }
 
