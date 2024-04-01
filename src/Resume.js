@@ -21,7 +21,7 @@ export default function Resume() {
                         <h4 className="resume-section-header">TECHNICAL SKILLS</h4>
                         <p className="resume-paragraph">JavaScript/Typescript (including Vue.js, AngularJS, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL, Flask,  Intrusion Detection, Cybersecurity Incident Response, Vulnerability Management, Communication, Problem-Solving, Critical Thinking</p>
                         <h4 className="resume-section-header">WORK EXPERIENCE</h4>
-                        <p className="resume-paragraph resume-section-bold">Software Engineer, Dorsata, Remote | 09/2021 - 09/2023</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Software Engineer, Dorsata, Remote</p><p className="resume-paragraph resume-section-bold date-on-resume">09/2021-09/2023</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Worked as an engineer for a software company focused on improving women’s health and prenatal care. 
                                 Dorsata provides an EHR tool embedded in the obstetrics workflow to aid women’s healthcare providers 
@@ -35,54 +35,54 @@ export default function Resume() {
                                 focused on “real world evidence” data collection
                             </li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold"> Software Engineer Contractor, Sunnyside, NY | 10/2020 - 12/2020</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold"> Software Engineer Contractor, Sunnyside, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">10/2020-12/2020</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Built a PHP plug-in to update the WordPress website of a major national trade group</li>
                             <li className="li-resume">Handled searches of the company’s directory and implemented a responsive design using Flexbox</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold"> Operations Manager, Sunnyside, NY | 2014 - 2021</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold"> Operations Manager, Sunnyside, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">2014-2021</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Managed book, record, and media sales for an on-line retail store, handling administrative work and the shipment of items</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Visiting Instructor, Pratt Institute, Brooklyn, NY | 08/2016 - 12/2018</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Visiting Instructor, Pratt Institute, Brooklyn, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2016-12/2018</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Taught courses including Philosophy & Film, Philosophy of Literature, and Problems in Philosophy</li>
                             <li className="li-resume">Designed interdisciplinary syllabi, centering coursework on philosophy, literature, and film</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Instructor, Western Connecticut State University, Danbury, CT | 01/2017 - 12/2018</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Instructor, Western Connecticut State University, Danbury, CT </p><p className="resume-paragraph resume-section-bold date-on-resume">01/2017-12/2018</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Developed curriculum and served as instructor for Intro. to Philosophy, Intro. to Ethics, 
                                 Ethical Issues in Healthcare, Philosophy of Death & Dying, Philosophy in Film, Philosophical Issues in Literature, Philosophy of Self, and Love in Western Civilization
                             </li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Teaching Assistant & Graduate Council Fellow, Stony Brook University, Stony Brook, NY | 08/2011 - 05/2016</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Teaching Assistant & Graduate Council Fellow, Stony Brook University, Stony Brook, NY</p><p className="resume-paragraph resume-section-bold date-on-resume"> 08/2011-05/2016</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Pursued coursework and graduate program requirements and served as a teaching assistant and instructor of Philosophy classes</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Foreign Language Assistant, Académie de Corse, Ajaccio, Corsica | 10/2008 - 04/2009</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Foreign Language Assistant, Académie de Corse, Ajaccio, Corsica</p><p className="resume-paragraph resume-section-bold date-on-resume">10/2008-04/2009</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Led English-language courses for elementary-school students as a part of a program run by the French Department of Education</li>
                         </ul>
                         <h4 className="resume-section-header">EDUCATION</h4>
-                        <p className="resume-paragraph resume-section-bold">Google Cybersecurity Professional Certificate | 01/2024</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Google Cybersecurity Professional Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">01/2024</p></div>
                         <br />
-                        <p className="resume-paragraph resume-section-bold">HarvardX, CS50x Introduction to Computer Science Verified Certificate | 12/2023</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">HarvardX CS50x Introduction to Computer Science Verified Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">12/2023</p></div>
                         <br />
-                        <p className="resume-paragraph resume-section-bold">Google/Coursera, Crash Course on Python Certificate | 09/2020 - 10/2020</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Google/Coursera Crash Course on Python Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">09/2020-10/2020</p></div>
                         <br />
-                        <p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, New York | 10/2019 - 02/2020</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">10/2019-02/2020</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Full Stack Web Development | JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York | 08/2011 - 12/2017</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2011-12/2017</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Ph.D. Philosophy | Focus on Ethics and Aesthetics | Dissertation: Panorama and Proximity in Levinas and the Stoics</li>
                         </ul>
-                        <p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York | 08/2009 - 12/2010</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2009-12/2010</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">M.A. Philosophy | Focus on Philosophy of Art and Aesthetics</li>
                         </ul> 
-                        <p className="resume-paragraph resume-section-bold">DePaul University, Chicago, IL | 09/2004 - 06/2008</p>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">DePaul University, Chicago, IL</p><p className="resume-paragraph resume-section-bold date-on-resume">09/2004-06/2008</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Bachelor of Arts (BA), Philosophy and French, Magna Cum Laude, Honors Program</li>
                         </ul> 

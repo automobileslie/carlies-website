@@ -490,9 +490,9 @@ text-align: center
 }
 
 .resume-paragraph {
-  font-size: 90%;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 90%;
 }
 
 .resume-links {
@@ -511,6 +511,22 @@ text-align: center
 
 .li-resume {
   margin-bottom: 1%;
+}
+
+.container-for-resume-paragraph {
+  display: flex;
+}
+
+.date-on-resume {
+  margin-left: 5%;
+}
+
+@media screen and (min-width: 700px){
+  .date-on-resume {
+  margin-left: 1%;
+  border-left: solid black;
+  padding-left: 1%;
+  }
 }
 
 /* navigation bar */
