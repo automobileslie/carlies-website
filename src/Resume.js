@@ -66,19 +66,19 @@ export default function Resume() {
                         <h4 className="resume-section-header">EDUCATION</h4>
                         <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Google Cybersecurity Professional Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">01/2024</p></div>
                         <br />
-                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">HarvardX CS50x Introduction to Computer Science Verified Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">12/2023</p></div>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">HarvardX CS50x Intro. to Computer Science Verified Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">12/2023</p></div>
                         <br />
                         <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Google/Coursera Crash Course on Python Certificate</p><p className="resume-paragraph resume-section-bold date-on-resume">09/2020-10/2020</p></div>
                         <br />
-                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Flatiron School, Brooklyn, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">10/2019-02/2020</p></div>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Flatiron School Access Labs, Brooklyn, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">10/2019-02/2020</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Full Stack Web Development | JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
                         </ul>
-                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2011-12/2017</p></div>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2011-12/2017</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">Ph.D. Philosophy | Focus on Ethics and Aesthetics | Dissertation: Panorama and Proximity in Levinas and the Stoics</li>
                         </ul>
-                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, New York</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2009-12/2010</p></div>
+                        <div className="container-for-resume-paragraph"><p className="resume-paragraph resume-section-bold">Stony Brook University, Stony Brook, NY</p><p className="resume-paragraph resume-section-bold date-on-resume">08/2009-12/2010</p></div>
                         <ul className="ul-resume">
                             <li className="li-resume">M.A. Philosophy | Focus on Philosophy of Art and Aesthetics</li>
                         </ul> 
