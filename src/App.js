@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const setOfProjects = [
   {id: "1-project", title:  "National Park Trip Planner", 
-  description: "National Parks Trip Planner provides information about national parks in the United States, fetching from the National Park Service API and also linking to the National Park Service website. Users can save parks that they would like to go to or to learn more about and take notes on saved parks as they plan a trip. The idea for this application came from my eagerness to get outdoors. I like that National Parks are low-cost and offer educational opportunities about both history and nature.", 
+  description: "National Parks Trip Planner provides information about national parks in the United States, fetching from the National Park Service API and also linking to the National Park Service website. Users can save parks that they would like to learn more about and take notes on saved parks as they plan a trip. The idea for this application came from my eagerness to get outdoors. I like that National Parks are low-cost and offer educational opportunities about both history and nature.", 
   video: "https://youtu.be/B2vT8In2s5g", 
   image: "./Images/Sunset Cities, in the Grand Canyon.jpg", 
   imageCitation: 'Joseph Pennell. Sunset Cities, in the Grand Canyon, 1912. https://www.artic.edu/artworks/47908/sunset-cities-in-the-grand-canyon',
