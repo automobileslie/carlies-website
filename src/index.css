@@ -170,29 +170,29 @@ text-align: center
 }
 
 .project-description{
- font-size: medium;
- text-align: left;
- max-width: 450px;
- margin-top: 0px;
-}
-
-@media screen and (max-width: 900px){
-  .project-description{
-      text-align: left;
-      margin-left: 7%;
-      margin-right: 10%;
-      margin-top: 3%;
-      margin-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 375px){
-  .project-description{
-      text-align: left;
-      margin-left: 0;
-      margin-right: 0;
-  }
-}
+  font-size: medium;
+  text-align: left;
+  max-width: 450px;
+  margin-top: 0px;
+ }
+ 
+ @media screen and (max-width: 900px){
+   .project-description{
+       text-align: left;
+       margin-left: 7%;
+       margin-right: 10%;
+       margin-top: 3%;
+       margin-bottom: 0px;
+   }
+ }
+ 
+ @media screen and (max-width: 375px){
+   .project-description{
+       text-align: left;
+       margin-left: 0;
+       margin-right: 0;
+   }
+ }
 
 .container-for-project-display{
   display: flex;
@@ -482,7 +482,8 @@ text-align: center
 .resume-section-header {
   border-bottom: 2px solid;
   padding-bottom: 1%;
-  margin-right: 2%;
+  margin-right: 1%;
+  margin-bottom: 1%;
 }
 
 .resume-section-bold {
@@ -491,8 +492,28 @@ text-align: center
 
 .resume-paragraph {
   margin-top: 0;
+  margin-bottom: 2%;
+  font-size: 90%;
+  padding-right: 5%;
+}
+
+@media screen and (max-width: 700px){
+  .resume-paragraph {
+    font-size: small;
+  }
+}
+
+.resume-date {
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 90%;
+  width: 20%;
+}
+
+@media screen and (max-width: 700px){
+  .resume-date {
+    font-size: small;
+  }
 }
 
 .resume-links {
@@ -502,30 +523,54 @@ text-align: center
 
 .link-for-resume-and-projects {
   font-weight: normal;
-}
-
-.ul-resume {
-  padding-inline-start: 15px;
-  font-size: 90%;
+  margin: 1%;
 }
 
 .li-resume {
   margin-bottom: 1%;
+  margin-right: 5%;
+  font-size: 90%;
+  margin-top: 0%;
 }
 
-.container-for-resume-paragraph {
-  display: flex;
+@media screen and (max-width: 700px){
+  .li-resume {
+    margin-right: 0%;
+    margin-bottom: 3%;
+    font-size: small;
+  }
 }
 
-.date-on-resume {
-  margin-left: 5%;
+table {
+  width: 100%;
 }
 
-@media screen and (min-width: 700px){
-  .date-on-resume {
-  margin-left: 1%;
-  border-left: solid black;
-  padding-left: 1%;
+.project-title {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 90%;
+  padding-right: 5%;
+}
+
+@media screen and (min-width: 701px){
+  .project-description-on-resume{
+    font-size: 90%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 700px){
+  .project-description-on-resume{
+    font-size: small;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .project-title {
+    font-size: small;
   }
 }
 
