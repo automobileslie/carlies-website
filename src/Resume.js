@@ -157,7 +157,7 @@ export default function Resume() {
 
                         <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4>
 
-                        <p className="project-title"><strong>Chicago Artwork Collection Application</strong> 
+                        <p className="project-title-first"><strong>Chicago Artwork Collection Application</strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/aic_collections_app" target = "_blank" rel="noopener noreferrer"> AIC Collection App </a>
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://youtu.be/htQ8wr_J2WU" target = "_blank" rel="noopener noreferrer"> Demo </a>
                         </p>

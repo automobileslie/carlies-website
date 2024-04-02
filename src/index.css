@@ -556,7 +556,20 @@ table {
 @media screen and (max-width: 700px){
   .project-title {
     font-size: small;
-    margin-top: 5%;
+    margin-top: 5%;;
+  }
+}
+
+.project-title-first {
+  margin-top: 2%;
+  margin-bottom: 0;
+  font-size: 90%;
+  padding-right: 5%;
+}
+
+@media screen and (max-width: 700px){
+  .project-title-first {
+    font-size: small;
   }
 }
 
