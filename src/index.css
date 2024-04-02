@@ -49,8 +49,8 @@ color: rosybrown;
 .link-to-website{
   color: black;
   margin-right: 2%;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-to-website ~ .link-to-website  {
@@ -93,6 +93,7 @@ color: rosybrown;
       margin-bottom: 15%;
       justify-content: start;
       margin-left: 0;
+      font-size: small; 
   }
 }
 

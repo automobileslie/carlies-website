@@ -7,9 +7,7 @@ export default function Resume() {
                         <h1 className="heading resume-header">Carlie Anglemire</h1>
                         <div className="links-to-websites resume-links">
                             <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://github.com/automobileslie" target = "_blank" rel="noopener noreferrer">Github</a></p> 
-                            <p>|</p>
                             <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>  
-                            <p>|</p>
                             <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
                         </div>
                         <p className="resume-paragraph">Self-motivated and team-oriented full stack software engineer who loves using problem-solving skills and creativity in building applications to​ help people gain access to online resources. 
@@ -123,7 +121,8 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume">Full Stack Web Development | JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
+                                        <li className="li-resume">Full Stack Web Development</li>
+                                        <li className="li-resume">JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
                                     </td>
                                 </tr>
                                 <tr>
@@ -132,7 +131,7 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume">Ph.D. Philosophy | Focus on Ethics and Aesthetics | Dissertation: Panorama and Proximity in Levinas and the Stoics</li>
+                                        <li className="li-resume">Ph.D. Philosophy, Focus on Ethics and Aesthetics, Dissertation: Panorama and Proximity in Levinas and the Stoics</li>
                                     </td>
                                 </tr>
                                 <tr>
@@ -141,7 +140,7 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume">M.A. Philosophy | Focus on Philosophy of Art and Aesthetics</li>
+                                        <li className="li-resume">M.A. Philosophy, Focus on Philosophy of Art and Aesthetics</li>
                                     </td>
                                 </tr> 
                                 <tr>
@@ -187,8 +186,8 @@ export default function Resume() {
                         <li className="li-resume">Enabled JWT token authentication, Bcrypt, and Dotenv-rails for secure login and sign up</li>
 
                         <h4 className="resume-section-header">TRANSLATIONS</h4>
-                        <p className="resume-paragraph"><strong><i>Being Nude: The Skin of Images</i></strong>, Fordham University Press, 2014 | Co-translated with Anne O’Byrne</p>
-                        <p className="resume-paragraph"><strong><i>Carnal Hermeneutics</i></strong>, Fordham University Press, 2015 | Translator of “Essential Skin” in Jean-Luc Nancy’s Rethinking Corpus</p> 
+                        <p className="resume-paragraph"><strong><i>Being Nude: The Skin of Images</i></strong>, Fordham University Press, 2014, Co-translated with Anne O’Byrne</p>
+                        <p className="resume-paragraph"><strong><i>Carnal Hermeneutics</i></strong>, Fordham University Press, 2015, Translator of “Essential Skin” in Jean-Luc Nancy’s Rethinking Corpus</p> 
                     </div>
                 </div>
             </>

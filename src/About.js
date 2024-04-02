@@ -20,9 +20,7 @@ export default function About() {
                     </div>
                     <div className="links-to-websites">
                         <p className="link-to-website"><a className="link" href="https://github.com/automobileslie" target = "_blank" rel="noopener noreferrer"> Github</a></p> 
-                        <p>| </p>
                         <p className="link-to-website"><a className="link" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>  
-                        <p>| </p>
                         <p className="link-to-website"><a className="link" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
                     </div>
                 </div>
