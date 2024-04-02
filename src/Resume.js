@@ -41,6 +41,15 @@ export default function Resume() {
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td className="resume-paragraph resume-section-bold"> Operations Manager, Sunnyside, NY</td>
+                                    <td className="resume-date resume-section-bold">2014-2021</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Managed book, record, and media sales for an on-line retail store, handling administrative work and the shipment of items</li>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td className="resume-paragraph resume-section-bold"> Software Engineer Contractor, Sunnyside, NY</td>
                                     <td className="resume-date resume-section-bold">10/2020-12/2020</td>
                                 </tr>
@@ -48,15 +57,6 @@ export default function Resume() {
                                     <td>
                                         <li className="li-resume">Built a PHP plug-in to update the WordPress website of a major national trade group</li>
                                         <li className="li-resume">Handled searches of the company’s directory and implemented a responsive design using Flexbox</li>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td className="resume-paragraph resume-section-bold"> Operations Manager, Sunnyside, NY</td>
-                                    <td className="resume-date resume-section-bold">2014-2021</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <li className="li-resume">Managed book, record, and media sales for an on-line retail store, handling administrative work and the shipment of items</li>
                                     </td>
                                 </tr>
                                 <tr>
@@ -121,8 +121,7 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume">Full Stack Web Development</li>
-                                        <li className="li-resume">JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
+                                        <li className="li-resume">Full Stack Web Development, JavaScript, React, Redux, Ruby, Ruby on Rails, SQL, Sinatra, HTML, CSS</li>
                                     </td>
                                 </tr>
                                 <tr>
