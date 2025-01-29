@@ -18,7 +18,7 @@ export default function Publications({publications, expandPublication, publicati
      const renderIndexOrShowPage = () => {
         if (!publicationExpanded.length) {
             return <div className="container-for-publication-and-project-index">
-                <h2 className="projects-and-publications-heading">Publications</h2>
+                <h2 className="projects-and-publications-heading">Published Translations</h2>
                 <div className="publications-and-projects-container">
                     {displayProjectTiles()}            
                 </div>

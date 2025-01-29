@@ -6,21 +6,59 @@ export default function Resume() {
                     <div className="resume-header-container">
                         <h1 className="heading resume-header">Carlie Anglemire</h1>
                         <div className="links-to-websites resume-links">
-                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://github.com/automobileslie" target = "_blank" rel="noopener noreferrer">Github</a></p> 
-                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>  
-                            <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="https://medium.com/@carlie.anglemire" target = "_blank" rel="noopener noreferrer">Blog</a></p>
+                            {/* <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>   */}
                         </div>
-                        <p className="resume-paragraph">Self-motivated and team-oriented full stack software engineer who loves using problem-solving skills and creativity in building applications to​ help people gain access to online resources. 
-                        Most recently having worked for a software company focused on women’s health and prenatal care, I leverage logic and critical thinking tools developed as a Philosophy PhD and student and translator of natural languages. 
-                        With a commitment to communication and collaboration and experience delving into new technical languages and frameworks, I am looking for my next role in the tech field to contribute to providing services to users that support their quality of life.
+                        <br></br>
+                        <p className="resume-paragraph">I am an avid home cook and community gardener with a love of food and the arts currently working as a server for the Land and Sea Department at the Cherry Circle Room in the <strong><a href="https://www.chicagoathletichotel.com/" target="_blank" rel="noopener noreferrer">Chicago Athletic Association</a></strong>. 
+                            Before I began in this role, I was a software engineer for a company focused on women’s health and prenatal care, where I put my training in computer programming to use while honing a “how-can-I-fix-this” mentality. 
+                            In another life before that, I was a Philosophy Ph.D. focusing on issues in ethics and aesthetics and teaching courses that drew on philosophy, literature, and film. 
+                            All of the industries I have worked in – including food and beverage, retail, theatre, web development, and education – have helped me learn to be adaptable and resilient while shaping my communication, problem-solving, and critical thinking skills.
                         </p>
                     </div>
                     <div>
-                        <h4 className="resume-section-header">TECHNICAL SKILLS</h4>
-                        <p className="resume-paragraph">JavaScript/Typescript (including Vue.js, AngularJS, and React frameworks), Ruby, Ruby on Rails, Python, HTML, CSS, PHP, C, Java, SQL, Flask,  Intrusion Detection, Cybersecurity Incident Response, Vulnerability Management, Communication, Problem-Solving, Critical Thinking</p>
+                        <h4 className="resume-section-header">SKILLS</h4>
+                        <p className="resume-paragraph">Communication, Problem-Solving, Critical Thinking, Food and Beverage Knowledge, Full-Stack Web Development, Research and Teaching, Writing, French Language</p>
                         <h4 className="resume-section-header">WORK EXPERIENCE</h4>
                         <table>
                             <tbody>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Server, Land & Sea Department (Cherry Circle Room at the Chicago Athletic Association), Chicago, IL</td>
+                                    <td className="resume-date resume-section-bold">12/2024 - current</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greet and guide guests through the menu throughout dinner service, 
+                                            take meal and drink orders, garnish and bring drinks to the table, 
+                                            make coffee drinks and tea, process payment, 
+                                            and perform server assistant duties as needed (bus and reset tables, etc.)
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Server Assistant, Land & Sea Department (Cherry Circle Room at the Chicago Athletic Association), Chicago, IL</td>
+                                    <td className="resume-date resume-section-bold">05/2024 - current</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume"> Provide support for dinner service including bussing tables, 
+                                            clearing and crumbing between courses, setting tables at the beginning and end of the meal, 
+                                            adjusting the place setting during the meal as needed according the what the guests order, 
+                                            polishing silverware and dinnerware, folding napkins, restocking supplies, and making coffee drinks and tea
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Software Engineer Contractor, Chicago, IL</td>
+                                    <td className="resume-date resume-section-bold">03/2024 - 10/2024</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Developed features for a vehicle accident report application using Vue.js/Typescript on the front end 
+                                            with Typescript and an AWS Lambda Serverless Application on the back end
+                                        </li>
+                                    </td>
+                                </tr>
+
                                 <tr>
                                     <td className="resume-paragraph resume-section-bold">Software Engineer, Dorsata, Remote</td>
                                     <td className="resume-date resume-section-bold">09/2021-09/2023</td>
@@ -60,6 +98,31 @@ export default function Resume() {
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td className="resume-paragraph resume-section-bold">Barista/Cashier, Dominique Ansel Bakery, New York, NY</td>
+                                    <td className="resume-date resume-section-bold">04/2019 - 09/2019 & 06/2021 - 08/2021</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted and made drinks for customers, helped with restocking and keeping the work area clean,
+                                            rang up purchases, filled orders
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">French Tutor and Practice Test Proctor, Empire Edge, New York, NY</td>  
+                                    <td className="resume-date resume-section-bold">2016 - 2018</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Tutored students privately in the French language</li>
+                                        <li className="li-resume">Administered practice exams in office to help students prepare for standardized tests</li>
+                                        <li className="li-resume">Certified to tutor students in standardized tests such as the SAT and ACT</li>
+
+                                    </td>
+                                </tr>
+
+
+                                <tr>
                                     <td className="resume-paragraph resume-section-bold">Visiting Instructor, Pratt Institute, Brooklyn, NY</td>  
                                     <td className="resume-date resume-section-bold">08/2016-12/2018</td>
                                 </tr>
@@ -90,12 +153,69 @@ export default function Resume() {
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td className="resume-paragraph resume-section-bold">Barista/Cashier and Server, Le Pain Quotidien (Battery Park City), New York, NY</td>
+                                    <td className="resume-date resume-section-bold">2010 - 2011</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted and prepared drinks for customers, helped with restocking and keeping the work area clean, rang up purchases, worked with a team to fill orders, seated guests, made sure the table was set, took orders, and brought food to the table
+                                        </li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Usher, Radio City Music Hall (<i>The Christmas Spectacular</i>), New York, NY</td>
+                                    <td className="resume-date resume-section-bold">12/2009</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted and seated patrons and handed out programs</li>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td className="resume-paragraph resume-section-bold">Foreign Language Assistant, Académie de Corse, Ajaccio, Corsica</td>
                                     <td className="resume-date resume-section-bold">10/2008-04/2009</td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <li className="li-resume">Led English-language courses for elementary-school students as a part of a program run by the French Department of Education</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Cashier, Big Apple Finer Foods, Chicago, Illinois</td>
+                                    <td className="resume-date resume-section-bold">Summer, 2008 & 2009</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted customers, bagged groceries and rang up purchases on the cash register</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Usher, Auditorium Theatre, Chicago, Illinois</td>
+                                    <td className="resume-date resume-section-bold">2005 - 2008</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted and seated patrons and handed out programs</li>
+                                        <li className="li-resume">Saw and heard a lot of great performances of dance, theatre, and music</li>
+                                    </td>
+                                 
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Cashier, Carson Pirie-Scott, Mount Prospect, Illinois</td>
+                                    <td className="resume-date resume-section-bold">Winter 2004</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted customers, tidied up the floor, and worked on the register in the accessories department</li>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className="resume-paragraph resume-section-bold">Grocery Bagger/Cashier, Jewel-Osco, North Riverside, Illinois</td>
+                                    <td className="resume-date resume-section-bold">Summer 2002 - Summer 2004</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <li className="li-resume">Greeted customers, bagged groceries, and rang up purchases on the register</li>
                                     </td>
                                 </tr>
                             </tbody>
@@ -154,39 +274,39 @@ export default function Resume() {
                             </tbody>
                         </table>
 
-                        <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4>
+                        {/* <h4 className="resume-section-header">SAMPLE TECHNICAL PROJECTS</h4> */}
 
-                        <p className="project-title-first"><strong>Chicago Artwork Collection Application</strong> 
+                        {/* <p className="project-title-first"><strong>Chicago Artwork Collection Application</strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/aic_collections_app" target = "_blank" rel="noopener noreferrer"> AIC Collection App </a>
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://youtu.be/htQ8wr_J2WU" target = "_blank" rel="noopener noreferrer"> Demo </a>
                         </p>
                         <p className="project-description-on-resume"><i>A program for perusing artwork at the Art Institute of Chicago and creating your own personal collections</i></p>
                         <li className="li-resume">Built the application using Python, SQL, and Flask</li>
                         <li className="li-resume">Set up fetches to the Art Institute of Chicago’s public API to get work in the public domain, rendering a paginated list of matches</li>
-                        <li className="li-resume">Enabled CRUD functionality for users to manage their own personal digital artwork collections</li>
+                        <li className="li-resume">Enabled CRUD functionality for users to manage their own personal digital artwork collections</li> */}
 
-                        <p className="project-title"><strong>Library of Congress Collections Application </strong> 
+                        {/* <p className="project-title"><strong>Library of Congress Collections Application </strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/Library_of_Congress_App" target = "_blank" rel="noopener noreferrer"> Library of Congress App </a>
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://www.loom.com/share/0a4500bfd7b34f33b6b1e088a0beada9?sid=d8217163-72f7-4962-b08d-311505806dd8" target = "_blank" rel="noopener noreferrer"> Demo </a>
-                        </p>
-                        <p className="project-description-on-resume"><i>Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics</i></p>
+                        </p> */}
+                        {/* <p className="project-description-on-resume"><i>Provides information on collections held by the Library of Congress to generate interest in library resources on a variety of topics</i></p>
                         <li className="li-resume">Employed hooks in functional components in a React JavaScript framework</li>
                         <li className="li-resume">Fetched data from the Library of Congress Collections API to display in a paginated index</li>
                         <li className="li-resume">Provided a search box using a controlled form to narrow down the collections results</li>
-                        <li className="li-resume">Implemented a responsive design using Flexbox and media query breakpoints</li>
-                        <p className="project-title "><strong>National Parks Trip Planner </strong> 
+                        <li className="li-resume">Implemented a responsive design using Flexbox and media query breakpoints</li> */}
+                        {/* <p className="project-title "><strong>National Parks Trip Planner </strong> 
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/national_parks_app" target = "_blank" rel="noopener noreferrer"> National Parks App </a>
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://github.com/automobileslie/national_parks_api" target = "_blank" rel="noopener noreferrer">  National Parks App API </a>
                             <a className="link link-for-resume-and-projects resume-publication-and-project-link" href="https://youtu.be/B2vT8In2s5g" target = "_blank" rel="noopener noreferrer"> Demo </a>
-                        </p>
-                        <p className="project-description-on-resume"><i>An app for exploring national parks and organizing trips to different natural and historical sites</i></p>
+                        </p> */}
+                        {/* <p className="project-description-on-resume"><i>An app for exploring national parks and organizing trips to different natural and historical sites</i></p>
                         <li className="li-resume">Created a Ruby on Rails backend to fetch from the National Park Service JSON API</li>
                         <li className="li-resume">Engineered front-end functionality including a search bar, filters, and routes using React and React Router</li>
-                        <li className="li-resume">Enabled JWT token authentication, Bcrypt, and Dotenv-rails for secure login and sign up</li>
+                        <li className="li-resume">Enabled JWT token authentication, Bcrypt, and Dotenv-rails for secure login and sign up</li> */}
 
-                        <h4 className="resume-section-header">TRANSLATIONS</h4>
+                        {/* <h4 className="resume-section-header">TRANSLATIONS</h4>
                         <p className="resume-paragraph"><strong><i>Being Nude: The Skin of Images</i></strong>, Fordham University Press, 2014, Co-translated with Anne O’Byrne</p>
-                        <p className="resume-paragraph"><strong><i>Carnal Hermeneutics</i></strong>, Fordham University Press, 2015, Translator of “Essential Skin” in Jean-Luc Nancy’s Rethinking Corpus</p> 
+                        <p className="resume-paragraph"><strong><i>Carnal Hermeneutics</i></strong>, Fordham University Press, 2015, Translator of “Essential Skin” in Jean-Luc Nancy’s Rethinking Corpus</p>  */}
                     </div>
                 </div>
             </>
