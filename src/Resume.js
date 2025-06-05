@@ -48,7 +48,7 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td className="resume-paragraph resume-section-bold">Server Assistant, Land & Sea Department (Cherry Circle Room at the Chicago Athletic Association), Chicago, IL</td>
-                                    <td className="resume-date resume-section-bold">05/2024 - current</td>
+                                    <td className="resume-date resume-section-bold">05/2024 - 03/2025</td>
                                 </tr>
                                 <tr>
                                     <td>
