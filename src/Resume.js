@@ -9,7 +9,7 @@ export default function Resume() {
                             {/* <p className="link-to-website resume-publication-and-project-link"><a className="link link-for-resume-and-projects" href="http://www.linkedin.com/in/carlie-anglemire" target = "_blank" rel="noopener noreferrer"> LinkedIn</a></p>   */}
                         </div>
                         <br></br>
-                        <p className="resume-paragraph">I am an avid home cook and community gardener with a love of food and the arts currently working as a server for Boka Restaurant Group in the Drawing Room and Game Room on the seond floor of the <strong><a href="https://www.chicagoathletichotel.com/" target="_blank" rel="noopener noreferrer">Chicago Athletic Association</a></strong>. 
+                        <p className="resume-paragraph">I am an avid home cook and community gardener with a love of food and the arts currently working as a server for Boka Restaurant Group in the Drawing Room and Game Room on the second floor of the <strong><a href="https://www.chicagoathletichotel.com/" target="_blank" rel="noopener noreferrer">Chicago Athletic Association</a></strong>. 
                             Before I began at the Chicago Athletic Association, I was a software engineer for a company focused on women’s health and prenatal care, where I put my training in computer programming to use while honing a “how-can-I-fix-this” mentality. 
                             In another life before that, I was a Philosophy Ph.D. focusing on issues in ethics and aesthetics and teaching courses that drew on philosophy, literature, and film. 
                             All of the industries I have worked in – including food and beverage, retail, theatre, web development, and education – have helped me learn to be adaptable and resilient while shaping my communication, problem-solving, and critical thinking skills.
@@ -165,7 +165,7 @@ export default function Resume() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className="resume-paragraph resume-section-bold">Barista/Cashier and Server, Le Pain Quotidien (Battery Park City), New York, NY</td>
+                                    <td className="resume-paragraph resume-section-bold">Barista/Cashier and Server, <i>Le Pain Quotidien</i> (Battery Park City), New York, NY</td>
                                     <td className="resume-date resume-section-bold">2010 - 2011</td>
                                 </tr>
                                 <tr>
