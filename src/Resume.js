@@ -23,7 +23,7 @@ export default function Resume() {
                             <tbody>
                                 <tr>
                                     <td className="resume-paragraph resume-section-bold">Server, Boka Restaurant Group (Drawing Room and Game Room on the 2nd Floor of the Chicago Athletic Association), Chicago, IL</td>
-                                    <td className="resume-date resume-section-bold">3/2025 - currently</td>
+                                    <td className="resume-date resume-section-bold">03/2025 - currently</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -35,7 +35,7 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td className="resume-paragraph resume-section-bold">Server, Land & Sea Department (Cherry Circle Room at the Chicago Athletic Association), Chicago, IL</td>
-                                    <td className="resume-date resume-section-bold">12/2024 - 3/2025</td>
+                                    <td className="resume-date resume-section-bold">12/2024 - 03/2025</td>
                                 </tr>
                                 <tr>
                                     <td>
