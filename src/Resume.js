@@ -184,7 +184,7 @@ export default function Resume() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td className="resume-paragraph resume-section-bold">Foreign Language Assistant, Académie de Corse, Ajaccio, Corsica</td>
+                                    <td className="resume-paragraph resume-section-bold">Foreign Language Assistant, <i>Académie de Corse</i>, Ajaccio, Corsica</td>
                                     <td className="resume-date resume-section-bold">10/2008-04/2009</td>
                                 </tr>
                                 <tr>
