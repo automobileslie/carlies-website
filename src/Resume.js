@@ -39,10 +39,10 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume">Greet and guide guests through the menu throughout dinner service, 
-                                            take meal and drink orders, garnish and bring drinks to the table, 
-                                            make coffee drinks and tea, process payment, 
-                                            and perform server assistant duties as needed (bus and reset tables, etc.)
+                                        <li className="li-resume">Greeted and guided guests through the menu throughout dinner service, 
+                                            took meal and drink orders, garnished and brought drinks to the table, 
+                                            made coffee drinks and tea, processed payment, 
+                                            and performed server assistant duties as needed (bussed and reset tables, etc.)
                                         </li>
                                     </td>
                                 </tr>
@@ -52,9 +52,9 @@ export default function Resume() {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <li className="li-resume"> Provide support for dinner service including bussing tables, 
+                                        <li className="li-resume"> Provided support for dinner service including bussing tables, 
                                             clearing and crumbing between courses, setting tables at the beginning and end of the meal, 
-                                            adjusting the place setting during the meal as needed according the what the guests order, 
+                                            adjusting the place setting during the meal as needed according the what the guests ordered, 
                                             polishing silverware and dinnerware, folding napkins, restocking supplies, and making coffee drinks and tea
                                         </li>
                                     </td>
